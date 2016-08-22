@@ -15,8 +15,7 @@ list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
 
-## Function that computes the inverse of a special matrix (above). If the inverse has already been calculated 
-## then this function should retrieve the inverse from the cache.
+## Function that computes the inverse of a special matrix (above) If the inverse has already been calculated then this function should retrieve the inverse from the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
